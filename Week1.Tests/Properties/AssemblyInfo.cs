@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Week1")]
+[assembly: AssemblyTitle("Week1.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EPAM Systems")]
-[assembly: AssemblyProduct("Week1")]
+[assembly: AssemblyProduct("Week1.Tests")]
 [assembly: AssemblyCopyright("Copyright © EPAM Systems 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("75a02818-cb90-401c-8868-01bf047697e5")]
+[assembly: Guid("2e91f1c6-e4c0-431d-b673-c432c6c5daa0")]
 
 // Version information for an assembly consists of the following four values:
 //

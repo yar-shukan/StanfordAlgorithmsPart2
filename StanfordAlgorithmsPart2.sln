@@ -1,9 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{7B5E273E-4CDB-4261-9BE3-3BEBEBE2B035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1", "Week1\Week1.csproj", "{A43214F8-45B3-42BA-8DA6-2CEADE7B3F80}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B5CBC796-FC88-473A-B6F6-2D268A9F8FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1.Tests", "Week1.Tests\Week1.Tests.csproj", "{A2E9A796-FEB3-4D84-8C9D-D109629A8730}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{03F1253E-29BD-4E74-98DB-E828E48A8AD9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,12 +26,15 @@ Global
 		{7B5E273E-4CDB-4261-9BE3-3BEBEBE2B035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5E273E-4CDB-4261-9BE3-3BEBEBE2B035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5E273E-4CDB-4261-9BE3-3BEBEBE2B035}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A43214F8-45B3-42BA-8DA6-2CEADE7B3F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A43214F8-45B3-42BA-8DA6-2CEADE7B3F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A43214F8-45B3-42BA-8DA6-2CEADE7B3F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A43214F8-45B3-42BA-8DA6-2CEADE7B3F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E9A796-FEB3-4D84-8C9D-D109629A8730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E9A796-FEB3-4D84-8C9D-D109629A8730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E9A796-FEB3-4D84-8C9D-D109629A8730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E9A796-FEB3-4D84-8C9D-D109629A8730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2E9A796-FEB3-4D84-8C9D-D109629A8730} = {B5CBC796-FC88-473A-B6F6-2D268A9F8FAB}
 	EndGlobalSection
 EndGlobal

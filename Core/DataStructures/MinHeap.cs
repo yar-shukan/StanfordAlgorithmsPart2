@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Core
+namespace Core.DataStructures
 {
     public class MinHeap<T> : Heap<T>
     {

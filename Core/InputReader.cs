@@ -18,5 +18,10 @@ namespace Core
                              .ToArray();
             }
         }
+
+        public static int[] SplitAsInts(this string s)
+        {
+            return s.Split(' ').Select(int.Parse).ToArray();
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Core
+namespace Core.DataStructures
 {
     public abstract class Heap<T>
     {

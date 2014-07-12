@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,16 +33,15 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Array\CountExchangesAlgorithm.cs" />
     <Compile Include="Algorithms\Array\CountInversionsAlgorithm.cs" />
     <Compile Include="Algorithms\Graph\DijkstrasAlgorithm.cs" />
+    <Compile Include="Algorithms\Scheduling.cs" />
+    <Compile Include="Algorithms\Graph\LazyPrimMinimumSpanningTreeAlgorithm.cs" />
+    <Compile Include="DataStructures\Edge.cs" />
+    <Compile Include="DataStructures\EdgeWeightedGraph.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="DataStructures\Graph.cs" />
     <Compile Include="GraphExtensions.cs" />

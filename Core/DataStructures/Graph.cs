@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Core
+namespace Core.DataStructures
 {
     public class Graph : IEnumerable<List<int>>
     {
@@ -45,7 +45,7 @@ namespace Core
             do
             {
                 randomVertex = _random.Next(1, _adj.Length);
-            } while (this[randomVertex] == null || !this[randomVertex].Any(vertex => vertex != Deleted));
+            } while (this[randomVertex] == null || this[randomVertex].All(vertex => vertex == Deleted));
 
             return randomVertex;
         }
