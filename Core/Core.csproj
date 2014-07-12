@@ -39,16 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Array\CountExchangesAlgorithm.cs" />
+    <Compile Include="Algorithms\Array\CountInversionsAlgorithm.cs" />
+    <Compile Include="Algorithms\Graph\DijkstrasAlgorithm.cs" />
     <Compile Include="Extensions.cs" />
-    <Compile Include="Graph.cs" />
+    <Compile Include="DataStructures\Graph.cs" />
     <Compile Include="GraphExtensions.cs" />
-    <Compile Include="Heap.cs" />
+    <Compile Include="DataStructures\Heap.cs" />
     <Compile Include="InputReader.cs" />
-    <Compile Include="MaxHeap.cs" />
-    <Compile Include="MinHeap.cs" />
-    <Compile Include="MinPriorityQueue.cs" />
+    <Compile Include="DataStructures\MaxHeap.cs" />
+    <Compile Include="Algorithms\Stream\MedianMaintanenceAlgorithm.cs" />
+    <Compile Include="Algorithms\Graph\MinCutAlgorithm.cs" />
+    <Compile Include="DataStructures\MinHeap.cs" />
+    <Compile Include="DataStructures\MinPriorityQueue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeightedGraph.cs" />
+    <Compile Include="Algorithms\Graph\SCCAlgorithm.cs" />
+    <Compile Include="Algorithms\Array\TwoSumAlgorithm.cs" />
+    <Compile Include="DataStructures\WeightedGraph.cs" />
+    <Compile Include="DataStructures\WeightedVertex.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
